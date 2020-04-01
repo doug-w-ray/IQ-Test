@@ -26,11 +26,25 @@ body {
     overflow: hidden;
     width: 70vw;
     height: 80vh;
-    background: rgba(172, 220, 247, 0.6);
+    background: rgba(239, 245, 248, 0.6);
     border-radius: 20px;
     box-shadow: inset 0 0 5px;
     max-width: 900px;
     min-width: 320px;
+}
+
+.questions {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.question {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }
 
 /* SCORE AND HEADER */
@@ -135,14 +149,6 @@ body {
 
 /* PLAY SECTION */
 .play {
-    display: flex;
-    flex-wrap: nowrap;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.question {
     display: flex;
     flex-wrap: nowrap;
     flex-direction: column;
